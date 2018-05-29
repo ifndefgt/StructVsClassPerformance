@@ -1,6 +1,6 @@
 # Struct vs Class Performance
 
-This is a POC for my Medium article [Stop Using Structs!!](https://medium.com/@ifndefgt/stop-using-structs-4a48358636e5) which compares performance characteristics of structs and classes, with a view to show where structs are misused and contain other reference types.
+This is a POC for my Medium article [Stop Using Structs!!](https://medium.com/commencis/stop-using-structs-e1be9a86376f) which compares performance characteristics of structs and classes, with a view to show where structs are misused and contain other reference types.
 
 ## Results
 
