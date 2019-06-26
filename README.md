@@ -2,6 +2,12 @@
 
 This is a POC for my Medium article [Stop Using Structs!!](https://medium.com/commencis/stop-using-structs-e1be9a86376f) which compares performance characteristics of structs and classes, with a view to show where structs are misused and contain other reference types.
 
+## Warning
+
+The article and POC was published for Swift version 4.0 and this POC is valid for Swift 4.0 and -very likely- previous versions. But with Swift 4.1 and 4.2 Apple changed calling convention and ownership model and these changes directly effect language's performance characteristics.
+
+Therefore **the results of this POC may vary and is not perfectly valid for Swift versions after 4.0.**
+
 ## Results
 
 I tested each configuration with 100 iterations, results are averages in milliseconds, smaller is better :)
@@ -14,8 +20,8 @@ I tested each configuration with 100 iterations, results are averages in millise
 
 ## Requirements
 
-- Xcode 9.0+
-- Swift 4.0+
+- Xcode 9.0
+- Swift 4.0
 
 ## Running
 
